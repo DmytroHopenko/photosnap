@@ -46,6 +46,9 @@ export default function Header() {
     // Визиваємо handleResize() один раз при ініціалізації компонента
     handleResize();
 
+    window.scrollTo({
+      top: 0
+      })
     // Знімаємо слухача події при видаленні компонента
     return () => {
       window.removeEventListener('resize', handleResize);

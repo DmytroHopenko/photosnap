@@ -14,12 +14,14 @@ $gradient: linear-gradient(
   margin: 0;
   padding: 0;
 }
+html{
+  scroll-behavior: smooth;
+}
 a {
   text-decoration: none;
   color: $white;
 }
 body {
-  scroll-behavior: smooth;
   font-family: "DM Sans", sans-serif;
   background: $white;
 }
